@@ -3,7 +3,25 @@
     margin: 0;
     padding: 0;
   }
-main {
-    display: flex;
-    justify-content: center;
+  body{
+      color:black;
+      text-align: center;
+      font-family: "Arial";
+  }
+  #container {
+     width: 70%; 
+     padding: 1em;
+     text-align: left;
+     border: 1px solid #DDD;
+     margin: 0 auto;
+  }
+  .lista{
+      margin-top: 30px;
+      list-style: none;
+  }
+  h2{
+      margin: top 30px;
+  }
+p{
+    margin-top: 30px;
 }
