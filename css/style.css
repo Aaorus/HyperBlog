@@ -1,20 +1,35 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
+
   body{
       color:black;
       text-align: center;
       font-family: "Arial";
   }
+  #cabecera{
+      background:#44c;
+      font-weight: bold;
+      color: white;
+      margin: 0;
+      padding: 0.5em;
+      box-shadow: 3px 4px 9px -6px rgba(0,0,0,1);
+  }
+    span{
+      font-weight: normal;
+  }
   #container {
      width: 70%; 
-     padding: 1em;
      text-align: left;
      border: 1px solid #DDD;
      margin: 0 auto;
   }
+
+  span {
+      margin-left:  10px;
+  }
+  #post {
+    padding: 1em;
+    text-align: left;
+    margin: 0 auto;
+ }
   .lista{
       margin-top: 30px;
       list-style: none;
