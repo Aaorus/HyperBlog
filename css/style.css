@@ -15,6 +15,10 @@
     span{
       font-weight: normal;
   }
+
+  img{
+      width: 100%;
+  }
   #container {
      width: 70%; 
      text-align: left;
